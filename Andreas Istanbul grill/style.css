@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*---------- course --------*/
+
+
+h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:#000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;  
+}
+a {
+    color:#000;
+    font-size: 14px;
+    font-weight: 300;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;  
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+/*--------------- Om os --------------*/
+
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    margin-top: 100px;
+}
+.base{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.base-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.base-col h1{
+    padding-top: 0;
+}
+.base-col p{
+    padding: 15px 0 25px;
+}
+.base-image{
+    flex-basis: 85%;
+}
+.base-col img{
+    width: 100%;
+}
+
+@media (max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+} 
